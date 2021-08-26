@@ -1,0 +1,6 @@
+.clang-format
+config.h
+*.o
+*.orig
+*.rej
+st
