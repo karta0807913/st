@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Cascadia Code:style=Regular:size=12";
+static char *font = "Cascadia Code:style=Regular:size=11";
 static int borderpx = 2;
 
 /*
@@ -99,23 +99,23 @@ float alpha = 0.8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"black",
-	"red3",
-	"green3",
-	"yellow3",
-	"blue2",
-	"magenta3",
-	"cyan3",
-	"gray90",
+	"#323232",
+	"#D25252",
+	"#7FE173",
+	"#FFC66D",
+	"#4099FF",
+	"#F680FF",
+	"#BED6FF",
+	"#EEEEEC",
 
 	/* 8 bright colors */
-	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
+	"#535353",
+	"#F07070",
+	"#9DFF91",
+	"#FFE48B",
+	"#5EB7F7",
+	"#FF9DFF",
+	"#DCF4FF",
 	"white",
 
 	[255] = 0,
